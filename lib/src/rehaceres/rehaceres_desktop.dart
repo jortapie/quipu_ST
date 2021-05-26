@@ -36,9 +36,9 @@ class RehaceresDesktop extends StatelessWidget {
       children: [
         TableRow(
           children: [
-            crearBotonSecundario(Icons.error_outline, 'Ingreso de rehacer', 
-            'https://docs.google.com/forms/d/e/1FAIpQLSfR0l2rDG1stsSFKqrbDTE8vBFxp6F382wrPa7P3h_PJVVb3A/viewform'),
-            crearBotonSecundario(Icons.storage, 'Repositorio de rehaceres', 
+            crearBotonSecundario(Icons.error_outline, 'Ingreso de evento de calidad', 
+            'https://ferreyros-mvp.web.app/main/quality-internal-events'),
+            crearBotonSecundario(Icons.storage, 'Repositorio de rehaceres 2020', 
             'https://app.awesome-table.com/-MNp4pBevpBdYBUmrnC7/view'),
           ],
         ),

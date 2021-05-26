@@ -42,7 +42,7 @@ PreferredSize crearHeader(titulo, context) {
                     padding: EdgeInsets.all(60.0),
                     alignment: Alignment.bottomCenter,
                     child: 
-                      Text('QUIPU v2.0.0', textAlign: TextAlign.center, 
+                      Text('QUIPU v2.1.0', textAlign: TextAlign.center, 
                         style: TextStyle(fontFamily: 'RobotoMono', fontWeight: FontWeight.bold, fontSize: 15.0, color: Colors.white,
                         )
                       ),
