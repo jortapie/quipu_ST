@@ -47,8 +47,8 @@ Widget crearBotonesSecundarios(context) {
           children: [
             crearBotonSecundario(Icons.check, 'Checklist', 
             'https://app.awesome-table.com/-MQ9tGPSXma8U5A-lEdz/view'),
-            crearBotonSecundario(Icons.pageview, 'Planos', 
-            'http://fsalima234/str/'),
+            crearBotonSecundario(Icons.article , 'Reusabilidad de componentes', 
+            'https://app.awesome-table.com/-MaZ3RZWYs4wTMBLZ0pn/view'),
             
           ],
         ),
