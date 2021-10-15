@@ -51,6 +51,16 @@ class InformesDesktop extends StatelessWidget {
             'https://ferreyros-mvp.web.app/main/init-eval-reports'),
             crearBotonSecundario(Icons.art_track, 'Reporte de despacho', 
             'https://ferreyros-mvp.web.app/main/init-eval-reports'),
+            crearBotonSecundario(Icons.check_circle_outline, 'Información técnica',  
+            'https://app.awesome-table.com/-Mluo29BG_epmF_Ebh_5/view'),
+            // crearBotonNulo(),
+          ],
+        ),
+        TableRow(
+          children: [
+            crearBotonSecundario(Icons.photo_camera_outlined, 'Registro fotográfico',  
+            'https://app.awesome-table.com/-Mlur6n6FkHAg6OClEkA/view'),
+            crearBotonNulo(),
             crearBotonNulo(),
           ],
         ),
