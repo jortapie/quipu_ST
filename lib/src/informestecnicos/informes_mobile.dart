@@ -45,9 +45,10 @@ class InformesMobile extends StatelessWidget {
         ),
         TableRow(
           children: [
+            crearBotonSecundario(Icons.folder_shared  , 'Ingreso de informes MSH', 
+            'https://docs.google.com/forms/d/e/1FAIpQLSe0lXyCaR-d_25ob8yTtziHWkZ7e6OkdWLAErf6YBL6rOzcEg/viewform'),
             crearBotonSecundario(Icons.ballot_sharp, 'Informes cigueñales y bielas',  
             'https://datastudio.google.com/u/0/reporting/4bfd4053-ad81-4b9d-a871-5649608ad129/page/9SnJC'),
-            crearBotonNulo(),
           ],
         ),
         TableRow(
@@ -56,6 +57,21 @@ class InformesMobile extends StatelessWidget {
             'https://ferreyros-mvp.web.app/main/init-eval-reports'),
             crearBotonSecundario(Icons.art_track, 'Reporte de despacho', 
             'https://ferreyros-mvp.web.app/main/init-eval-reports'),
+          ],
+        ),
+        TableRow(
+          children: [
+            crearBotonSecundario(Icons.photo_camera_outlined, 'Ingreso de registro fotográfico',  
+            'https://docs.google.com/forms/d/e/1FAIpQLSeP9XFeBmrKdj79mD49496MCcZRingBSJsF1jfsxZCgxmR3qA/viewform'),
+            crearBotonSecundario(Icons.photo_camera_outlined, 'Registro fotográfico',
+            'https://app.awesome-table.com/-Mlur6n6FkHAg6OClEkA/view'),
+          ],
+        ),
+        TableRow(
+          children: [
+            crearBotonSecundario(Icons.check_circle_outline, 'Información técnica',
+            'https://app.awesome-table.com/-Mluo29BG_epmF_Ebh_5/view'),
+            crearBotonNulo(),
           ],
         ),
       ]

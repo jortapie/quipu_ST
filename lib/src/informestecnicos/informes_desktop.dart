@@ -58,9 +58,10 @@ class InformesDesktop extends StatelessWidget {
         ),
         TableRow(
           children: [
-            crearBotonSecundario(Icons.photo_camera_outlined, 'Registro fotográfico',  
+            crearBotonSecundario(Icons.photo_camera_outlined, 'Ingreso de registro fotográfico',  
+            'https://docs.google.com/forms/d/e/1FAIpQLSeP9XFeBmrKdj79mD49496MCcZRingBSJsF1jfsxZCgxmR3qA/viewform'),
+            crearBotonSecundario(Icons.photo_album_outlined, 'Registro fotográfico',  
             'https://app.awesome-table.com/-Mlur6n6FkHAg6OClEkA/view'),
-            crearBotonNulo(),
             crearBotonNulo(),
           ],
         ),
